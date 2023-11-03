@@ -1,0 +1,56 @@
+<section class="section-profile">
+    <section class="left-part">
+        <section class="top-part">
+            <p class="fullname">{{ section.fullname }}</p>
+            <p class="occupation">{{ section.occupation }}</p>
+        </section>
+        <section class="bottom-part">
+            <section class="inside-part-left">
+                <p class="nationality">
+                    <i class="bi bi-globe-americas"></i>
+                    {{ section.nationality }}
+                </p>
+                <p class="birth">
+                    <i class="bi bi-activity"></i> {{ section.birthdate }}
+                </p>
+                <p class="address">
+                    <i class="bi bi-house-door"></i> {{ section.address }}
+                </p>
+            </section>
+            <section class="inside-part-middle">
+                <img
+                    src="../assets/picture.jpg"
+                    class="picture"
+                    alt="profile picture" />
+            </section>
+            <section class="inside-part-right">
+                <p class="phone">
+                    {{ section.phone }} <i class="bi bi-phone"></i>
+                </p>
+                <p class="email">
+                    {{ section.email }}
+                    <i class="bi bi-envelope-at"></i>
+                </p>
+                <p class="link">
+                    {{ section.weblink }}
+                    <i class="bi bi-link-45deg"></i>
+                </p>
+            </section>
+        </section>
+        <section class="bottom-part">
+            <section class="inside-part-left">
+                <p *ngFor="let quality of section.quality">
+                    {{ quality }}
+                </p>
+            </section>
+            <section class="inside-part-middle">
+                <p *ngFor="let headline of section.headline">{{ headline }}</p>
+            </section>
+            <section class="inside-part-right">
+                <p *ngFor="let language of section.language">
+                    {{ language.name }} ({{ language.level }})
+                </p>
+            </section>
+        </section>
+    </section>
+</section>

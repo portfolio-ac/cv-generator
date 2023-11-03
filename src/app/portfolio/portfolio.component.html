@@ -1,0 +1,31 @@
+<div class="section-set">
+    <div class="section-set-title">
+        <p>{{ section.title }}</p>
+    </div>
+    <div class="row portfolio-section" *ngFor="let project of section.list">
+        <div class="col-3">
+            <div class="portfolio-left">
+                <div>{{ project.date }}</div>
+                <div *ngIf="project.duration">{{ project.duration }}</div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="portfolio-middle-up">
+                <div>{{ project.title }}</div>
+                <div *ngIf="project.subtitle" class="portfolio-subtitle">
+                    {{ project.subtitle }}
+                </div>
+            </div>
+            <div class="portfolio-middle-down">
+                <p *ngFor="let desc of project.description">{{ desc }}</p>
+            </div>
+        </div>
+        <div class="col-3 align-self-center">
+            <div class="portfolio-right">
+                <div *ngFor="let tech of project.technology">
+                    {{ tech }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

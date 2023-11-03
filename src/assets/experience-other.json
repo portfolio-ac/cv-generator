@@ -1,0 +1,47 @@
+{
+    "title": "Other professional experience",
+    "list": [
+        {
+            "title": "Job Title",
+            "subtitle": "Job subtitle",
+            "date": "Start date - End date ",
+            "worktime": "Full time",
+            "duration": "Duration in months",
+            "employer": "Employer",
+            "place1": "Place1",
+            "place2": "Place2",
+            "description": ["Description1", "Description2"],
+            "technology": [
+                "Tool1",
+                "Tool2",
+                "Tool3",
+                "Tool4",
+                "Tool5",
+                "Tool6",
+                "Tool7",
+                "Tool8"
+            ]
+        },
+        {
+            "title": "Job Title",
+            "subtitle": "Job subtitle",
+            "date": "Start date - End date ",
+            "worktime": "Full time",
+            "duration": "Duration in months",
+            "employer": "Employer",
+            "place1": "Place1",
+            "place2": "Place2",
+            "description": ["Description1", "Description2"],
+            "technology": [
+                "Tool1",
+                "Tool2",
+                "Tool3",
+                "Tool4",
+                "Tool5",
+                "Tool6",
+                "Tool7",
+                "Tool8"
+            ]
+        }
+    ]
+}

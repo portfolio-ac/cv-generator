@@ -1,0 +1,40 @@
+<div class="section-set">
+    <div *ngIf="showTitle" class="section-set-title">{{ section.title }}</div>
+    <div
+        class="row experience-section"
+        *ngFor="let experience of experienceList">
+        <div class="col-3">
+            <div class="experience-left">
+                <div class="experience-left-up">
+                    <div>{{ experience.date }}</div>
+                    <div>
+                        {{ experience.worktime }} ({{ experience.duration }})
+                    </div>
+                </div>
+                <div class="experience-left-bottom">
+                    <div>{{ experience.employer }}</div>
+                    <div>{{ experience.place1 }}</div>
+                    <div>{{ experience.place2 }}</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="experience-middle-up">
+                <div>{{ experience.title }}</div>
+                <div *ngIf="experience.subtitle" class="experience-subtitle">
+                    {{ experience.subtitle }}
+                </div>
+            </div>
+            <div class="experience-middle-down">
+                <p *ngFor="let desc of experience.description">{{ desc }}</p>
+            </div>
+        </div>
+        <div class="col-3 align-self-center">
+            <div class="experience-right">
+                <div *ngFor="let tech of experience.technology">
+                    {{ tech }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

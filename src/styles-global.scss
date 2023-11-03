@@ -1,0 +1,37 @@
+$a4-height: 29.7cm;
+$a4-width: 21cm;
+$root-font-size: 12px;
+$font-size-info: 1rem;
+$font-color: white;
+$background-first: rgb(14, 33, 68);
+$background-second: rgb(53, 54, 58);
+$background-third: rgb(74, 74, 78);
+$container-height: 3cm;
+$container-title-top: 0.05cm;
+$container-color: white;
+$container-font-weight: normal;
+$container-font-size: 0.95rem;
+
+%flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+%flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+%inside-part {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding-right: 0.1cm;
+    padding-left: 0.1cm;
+    row-gap: 0.1cm;
+    column-gap: 0.1cm;
+    font-size: $container-font-size;
+}

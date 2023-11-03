@@ -1,0 +1,16 @@
+@import "../../styles-global.scss";
+
+$margin: 0.2cm;
+
+.page-footer {
+    background-color: $background-first;
+}
+.page-footer-left {
+    text-align: left;
+    margin-left: $margin;
+}
+
+.page-footer-right {
+    text-align: right;
+    margin-right: $margin;
+}

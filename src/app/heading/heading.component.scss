@@ -1,0 +1,66 @@
+@import "../../styles-global.scss";
+
+$heading-height: 15%;
+
+%inside-part-heading {
+    @extend %flex-col;
+    align-items: start;
+    padding-top: 0.2cm;
+    padding-bottom: 0.2cm;
+}
+
+.section-profile {
+    @extend %flex-row;
+    width: 100%;
+    font-size: $font-size-info;
+    .left-part {
+        @extend %flex-col;
+        width: 100%;
+        background-color: $background-second;
+        .top-part {
+            @extend %flex-col;
+            align-items: center;
+            background-color: $background-first;
+            padding-top: 0.2cm;
+            padding-bottom: 1.5cm;
+            .fullname {
+                font-size: 1.5rem;
+            }
+            .occupation {
+                font-size: 1.4rem;
+            }
+        }
+        .bottom-part {
+            @extend %flex-row;
+            background-color: $background-second;
+            .inside-part-left {
+                @extend %inside-part-heading;
+                width: 35%;
+                padding-left: 0.9cm;
+                align-items: start;
+            }
+            .inside-part-middle {
+                width: 30%;
+                position: relative;
+                align-self: center;
+                text-align: center;
+                .picture {
+                    position: absolute;
+                    width: 3cm;
+                    left: 0;
+                    right: 0;
+                    top: -2.4cm;
+                    margin-left: auto;
+                    margin-right: auto;
+                    border-radius: 50%;
+                }
+            }
+            .inside-part-right {
+                @extend %inside-part-heading;
+                width: 35%;
+                padding-right: 0.9cm;
+                align-items: end;
+            }
+        }
+    }
+}

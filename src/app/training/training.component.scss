@@ -1,0 +1,50 @@
+@import "../../styles-global.scss";
+
+.training-section {
+    background-color: $background-third;
+    border-left: solid 0.05cm white;
+    border-right: solid 0.05cm white;
+    padding-left: 0.01cm;
+    padding-right: 0.01cm;
+    color: $container-color;
+    height: $container-height;
+}
+
+.training-left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0cm;
+    height: 100%;
+    justify-content: space-evenly;
+    font-size: $container-font-size;
+    .training-left-up {
+        @extend %inside-part;
+        row-gap: 0cm;
+    }
+    .training-left-bottom {
+        @extend %inside-part;
+        row-gap: 0cm;
+        column-gap: 0.01cm;
+    }
+}
+
+.training-middle-up {
+    @extend %inside-part;
+    height: 40%;
+    font-size: 1.1rem;
+    position: relative;
+    top: $container-title-top;
+    .training-subtitle {
+        font-size: $container-font-size;
+    }
+}
+.training-middle-down {
+    @extend %inside-part;
+    height: 60%;
+}
+.training-right {
+    @extend %inside-part;
+    flex-direction: row;
+    row-gap: 0.1cm;
+    column-gap: 0.2cm;
+}

@@ -1,0 +1,49 @@
+{
+    "title": "Training",
+    "list": [
+        {
+            "title": "Training title",
+            "subtitle": "Training subtitle",
+            "date": "Start date - End date",
+            "duration": "Duration in months",
+            "center": "Training center name ",
+            "place1": "Place1",
+            "place2": "Place2",
+            "description": ["Descrition1", "Descrition2"],
+            "technology": ["Subject1", "Subject2", "Subject3", "Subject4", "Subject5"]
+        },
+        {
+            "title": "Training title",
+            "subtitle": "Training subtitle",
+            "date": "Start date - End date",
+            "duration": "Duration in months",
+            "center": "Training center name ",
+            "place1": "Place1",
+            "place2": "Place2",
+            "description": ["Descrition1", "Descrition2"],
+            "technology": ["Subject1", "Subject2", "Subject3", "Subject4", "Subject5"]
+        },
+        {
+            "title": "Training title",
+            "subtitle": "Training subtitle",
+            "date": "Start date - End date",
+            "duration": "Duration in months",
+            "center": "Training center name ",
+            "place1": "Place1",
+            "place2": "Place2",
+            "description": ["Descrition1", "Descrition2"],
+            "technology": ["Subject1", "Subject2", "Subject3", "Subject4", "Subject5"]
+        },
+        {
+            "title": "Training title",
+            "subtitle": "Training subtitle",
+            "date": "Start date - End date",
+            "duration": "Duration in months",
+            "center": "Training center name ",
+            "place1": "Place1",
+            "place2": "Place2",
+            "description": ["Descrition1", "Descrition2"],
+            "technology": ["Subject1", "Subject2", "Subject3", "Subject4", "Subject5"]
+        }
+    ]
+}

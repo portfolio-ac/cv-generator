@@ -1,0 +1,45 @@
+{
+    "title": "Portfolio of recent personal projects",
+    "list": [
+        {
+            "title": "Project name",
+            "subtitle": "Frontend application",
+            "date": "10/2023",
+            "duration": "",
+            "context": "Personal project",
+            "place1": "",
+            "place2": "",
+            "description": ["Description1", "Description2"],
+            "technology": [
+                "Tool1",
+                "Tool2",
+                "Tool3",
+                "Tool4",
+                "Tool5",
+                "Tool6",
+                "Tool7",
+                "Tool8"
+            ]
+        },
+        {
+            "title": "Project name",
+            "subtitle": "backend application",
+            "date": "9/2023-11/2023",
+            "duration": "",
+            "context": "Personal project",
+            "place1": "",
+            "place2": "",
+            "description": ["Description1.", "Description2"],
+            "technology": [
+                "Tool1",
+                "Tool2",
+                "Tool3",
+                "Tool4",
+                "Tool5",
+                "Tool6",
+                "Tool7",
+                "Tool8"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "fullname": "Full name",
+    "occupation": "Software development",
+    "address": "Full address",
+    "nationality": "Nationality",
+    "birthdate": "Date of birth",
+    "email": "Email",
+    "phone": "Phone number",
+    "weblink": "Social network link",
+    "headline": [
+        "Frontend and Backend applications.",
+        "Current tools: tool1, tool2, tool3, ..."
+    ],
+    "language": [
+        {
+            "name": "Language1",
+            "level": "Native"
+        },
+        {
+            "name": "Language2",
+            "level": "Good"
+        },
+        {
+            "name": "Language3",
+            "level": "basic"
+        },
+        {
+            "name": "Language3",
+            "level": "basic"
+        }
+    ],
+    "quality": ["Quality1", "Quality2", "Quality3", "Quality4"]
+}

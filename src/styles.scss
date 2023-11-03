@@ -1,0 +1,62 @@
+@import "bootstrap/scss/bootstrap.scss";
+@import "bootstrap-icons/font/bootstrap-icons.scss";
+@import "./styles-global.scss";
+
+@page wide {
+    size: a4 portrait;
+}
+
+.row,
+.col {
+    text-align: center;
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    height: $a4-height;
+    width: $a4-width;
+    padding: 0.4cm 0.2cm 0.4cm 0.2cm;
+    margin: 0cm;
+    // border: solid 0.2cm white;
+    overflow: hidden;
+    justify-content: space-between;
+    row-gap: 0.3cm;
+}
+
+html {
+    font-size: $root-font-size;
+}
+
+body {
+    padding: 0cm;
+    margin: 0cm;
+    color: $font-color;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    overflow-wrap: break-word;
+    margin: 0cm;
+}
+
+.section-set {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    font-weight: $container-font-weight;
+    row-gap: 0.05cm;
+    .section-set-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: $background-first;
+        font-size: 1.2rem;
+        height: 1cm;
+        width: 100%;
+    }
+}

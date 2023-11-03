@@ -1,0 +1,28 @@
+{
+    "name": "cv",
+    "version": "0.0.0",
+    "scripts": {
+        "ng": "ng",
+        "start": "ng serve",
+        "build": "ng build",
+        "watch": "ng build --watch --configuration development",
+        "test": "ng test"
+    },
+    "private": true,
+    "dependencies": {
+        "@angular/common": "^16.2.0",
+        "@angular/compiler": "^16.2.0",
+        "@angular/core": "^16.2.0",
+        "@angular/platform-browser": "^16.2.0",
+        "@angular/platform-browser-dynamic": "^16.2.0",
+        "@ng-bootstrap/ng-bootstrap": "^15.1.2",
+        "bootstrap": "^5.2.3",
+        "bootstrap-icons": "^1.11.1"
+    },
+    "devDependencies": {
+        "@angular-devkit/build-angular": "^16.2.7",
+        "@angular/cli": "^16.2.7",
+        "@angular/compiler-cli": "^16.2.0",
+        "typescript": "~5.1.3"
+    }
+}

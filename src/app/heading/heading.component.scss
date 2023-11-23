@@ -21,22 +21,27 @@ $heading-height: 15%;
             @extend %flex-col;
             align-items: center;
             background-color: $background-first;
-            padding-top: 0.2cm;
-            padding-bottom: 1.5cm;
+            padding-top: 0.1cm;
+            padding-bottom: 1.6cm;
             .fullname {
                 font-size: 1.5rem;
+                font-weight: bold;
             }
             .occupation {
+                font-size: 1.2rem;
+            }
+            .degree {
                 font-size: 1.4rem;
             }
         }
         .bottom-part {
             @extend %flex-row;
-            background-color: $background-second;
+            background-color: $background-section;
+            color: $color-section;
             .inside-part-left {
                 @extend %inside-part-heading;
                 width: 35%;
-                padding-left: 0.9cm;
+                padding-left: 0.5cm;
                 align-items: start;
             }
             .inside-part-middle {
@@ -46,7 +51,7 @@ $heading-height: 15%;
                 text-align: center;
                 .picture {
                     position: absolute;
-                    width: 3cm;
+                    width: 2.9cm;
                     left: 0;
                     right: 0;
                     top: -2.4cm;
@@ -58,7 +63,7 @@ $heading-height: 15%;
             .inside-part-right {
                 @extend %inside-part-heading;
                 width: 35%;
-                padding-right: 0.9cm;
+                padding-right: 0.5cm;
                 align-items: end;
             }
         }

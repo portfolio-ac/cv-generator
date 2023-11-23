@@ -23,8 +23,7 @@ class Portfolio {
     styleUrls: ["./portfolio.component.scss"],
 })
 export class PortfolioComponent implements OnInit {
-    @Input({ required: true, transform: booleanAttribute }) showTitle: boolean =
-        true;
+    @Input({ required: true, transform: booleanAttribute }) showTitle: boolean = true;
     section: Portfolio = new Portfolio();
 
     ngOnInit(): void {

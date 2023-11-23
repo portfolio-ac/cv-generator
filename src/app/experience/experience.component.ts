@@ -33,8 +33,7 @@ export class ExperienceComponent implements OnInit {
     @Input() file: string = "experience";
     @Input({ required: true, transform: numberAttribute }) from: number = 0;
     @Input({ required: true, transform: numberAttribute }) to: number = 0;
-    @Input({ required: true, transform: booleanAttribute }) showTitle: boolean =
-        true;
+    @Input({ required: true, transform: booleanAttribute }) showTitle: boolean = true;
     section: ExperienceList = new ExperienceList();
 
     ngOnInit(): void {

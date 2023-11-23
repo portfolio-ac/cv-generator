@@ -6,43 +6,37 @@ import {
     numberAttribute,
 } from "@angular/core";
 
-type Training = {
+type Activity = {
     title: string;
-    subtitle: string;
     date: string;
-    duration: string;
-    center: string;
-    place1: string;
-    place2: string;
-    description: string[];
-    technology: string[];
 };
 
-class TrainingSet {
+class ActivitySet {
     title: string = "";
-    list: Training[] = [];
+    list: Activity[] = [];
 }
 
 @Component({
-    selector: "app-training",
-    templateUrl: "./training.component.html",
-    styleUrls: ["./training.component.scss"],
+    selector: "app-activity",
+    templateUrl: "./activity.component.html",
+    styleUrls: ["./activity.component.scss"],
 })
-export class TrainingComponent implements OnInit {
+export class ActivityComponent implements OnInit {
     @Input({ required: true, transform: numberAttribute }) from: number = 0;
     @Input({ required: true, transform: numberAttribute }) to: number = 0;
-    @Input({ required: true, transform: booleanAttribute }) showTitle: boolean = true;
-    section: TrainingSet = new TrainingSet();
+    @Input({ required: true, transform: booleanAttribute }) showTitle: boolean =
+        true;
+    section: ActivitySet = new ActivitySet();
 
     ngOnInit(): void {
-        fetch("../assets/training.json").then((data) => {
+        fetch("../assets/activity.json").then((data) => {
             data.json().then((response) => {
                 this.section = response;
             });
         });
     }
 
-    get trainingList(): Training[] {
+    get activityList(): Activity[] {
         return this.section.list.slice(
             this.from < 0 ? 0 : this.from - 1,
             this.to < 0 ? 0 : this.to

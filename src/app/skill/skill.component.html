@@ -1,0 +1,19 @@
+<div class="section-set">
+    <div *ngIf="showTitle" class="section-set-title">{{ section.title }}</div>
+
+    <div class="row skill-section" *ngFor="let skill of skillList">
+        <div class="col-2">
+            <div class="skill-left"></div>
+        </div>
+        <div class="col-8">
+            <div class="skill-middle">
+                <div>
+                    <strong>{{ skill.title }}</strong> : {{ skill.description }}
+                </div>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="skill-right"></div>
+        </div>
+    </div>
+</div>

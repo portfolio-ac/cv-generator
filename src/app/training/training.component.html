@@ -1,11 +1,11 @@
 <div class="section-set">
     <div *ngIf="showTitle" class="section-set-title">{{ section.title }}</div>
 
-    <div class="row training-section" *ngFor="let training of section.list">
+    <div class="row training-section" *ngFor="let training of trainingList">
         <div class="col-3">
             <div class="training-left">
                 <div class="training-left-up">
-                    <div>{{ training.date }}</div>
+                    <strong>{{ training.date }}</strong>
                     <div>{{ training.duration }}</div>
                 </div>
                 <div class="training-left-bottom">

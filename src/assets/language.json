@@ -1,0 +1,21 @@
+{
+    "title": "Languages",
+    "list": [
+        {
+            "language": "Language1",
+            "description": "Native"
+        },
+        {
+            "language": "Language2",
+            "description": "Good"
+        },
+        {
+            "language": "Language3",
+            "description": "basic"
+        },
+        {
+            "language": "Language4",
+            "description": "basic"
+        }
+    ]
+}

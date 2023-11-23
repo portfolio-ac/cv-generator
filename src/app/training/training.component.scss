@@ -1,13 +1,13 @@
 @import "../../styles-global.scss";
 
 .training-section {
-    background-color: $background-third;
-    border-left: solid 0.05cm white;
-    border-right: solid 0.05cm white;
+    background-color: $background-section;
+    color: $color-section;
+    // border-left: solid 0.05cm white;
+    // border-right: solid 0.05cm white;
     padding-left: 0.01cm;
     padding-right: 0.01cm;
-    color: $container-color;
-    height: $container-height;
+    height: 2.5cm;
 }
 
 .training-left {
@@ -17,6 +17,9 @@
     height: 100%;
     justify-content: space-evenly;
     font-size: $container-font-size;
+    padding-top: 0.3cm;
+    padding-bottom: 0.3cm;
+    padding-left: 0.5cm;
     .training-left-up {
         @extend %inside-part;
         row-gap: 0cm;
@@ -32,10 +35,12 @@
     @extend %inside-part;
     height: 40%;
     font-size: 1.1rem;
+    font-weight: bold;
     position: relative;
     top: $container-title-top;
     .training-subtitle {
         font-size: $container-font-size;
+        font-weight: normal;
     }
 }
 .training-middle-down {
@@ -45,6 +50,7 @@
 .training-right {
     @extend %inside-part;
     flex-direction: row;
-    row-gap: 0.1cm;
-    column-gap: 0.2cm;
+    row-gap: 0.05cm;
+    column-gap: 0.15cm;
+    padding-right: 0.5cm;
 }

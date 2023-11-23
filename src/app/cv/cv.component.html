@@ -1,22 +1,48 @@
 <div class="container-fluid p-0 m-0 g-0">
     <div class="row justify-content-center p-0 m-0 g-0">
         <div class="page">
-            <app-heading></app-heading>
-            <app-portfolio showTitle="true"></app-portfolio>
-            <app-experience showTitle="true" from="1" to="4"></app-experience>
-            <app-footer page-number="1"></app-footer>
+            <div class="content">
+                <app-heading></app-heading>
+                <app-experience
+                    showTitle="true"
+                    from="1"
+                    to="7"></app-experience>
+            </div>
+            <div class="footer">
+                <app-footer page-number="1"></app-footer>
+            </div>
         </div>
     </div>
     <div class="row justify-content-center p-0 m-0 g-0">
         <div class="page">
-            <app-experience showTitle="false" from="5" to="6"></app-experience>
-            <app-experience
+            <div class="content">
+                <app-experience
+                    showTitle="false"
+                    from="8"
+                    to="15"></app-experience>
+                <app-portfolio showTitle="true"></app-portfolio>
+                <app-skill from="1" to="5" showTitle="true"></app-skill>
+            </div>
+            <!-- <app-experience
                 file="experience-other"
                 showTitle="true"
                 from="1"
-                to="2"></app-experience>
-            <app-training from="1" to="4" showTitle="true"></app-training>
-            <app-footer page-number="2"></app-footer>
+                to="2"></app-experience> -->
+            <div class="footer">
+                <app-footer page-number="2"></app-footer>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center p-0 m-0 g-0">
+        <div class="page">
+            <div class="content">
+                <app-training from="1" to="6" showTitle="true"></app-training>
+                <app-activity from="1" to="8" showTitle="true"></app-activity>
+                <app-language from="1" to="6" showTitle="true"></app-language>
+            </div>
+            <div class="footer">
+                <app-footer page-number="3"></app-footer>
+            </div>
         </div>
     </div>
 </div>

@@ -16,14 +16,28 @@
 .page {
     display: flex;
     flex-direction: column;
+    // background-color: $background-section;
     height: $a4-height;
     width: $a4-width;
-    padding: 0.4cm 0.2cm 0.4cm 0.2cm;
+    // padding: 0.6cm 0.2cm 0.4cm 0.2cm;
     margin: 0cm;
-    // border: solid 0.2cm white;
     overflow: hidden;
     justify-content: space-between;
     row-gap: 0.3cm;
+    padding-top: 0.4cm;
+    padding-bottom: 0.4cm;
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        // height: 100%;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        // height: $footer-height;
+    }
 }
 
 html {
@@ -31,7 +45,7 @@ html {
 }
 
 body {
-    padding: 0cm;
+    // padding: 0cm;
     margin: 0cm;
     color: $font-color;
     font-family: Arial, sans-serif;
@@ -48,15 +62,22 @@ p {
     width: 100%;
     justify-content: center;
     font-weight: $container-font-weight;
-    row-gap: 0.05cm;
+    // row-gap: 0.05cm;
+    margin-top: 0.4cm;
     .section-set-title {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         background-color: $background-first;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
+        font-weight: bold;
         height: 1cm;
+        width: 100%;
+    }
+    .section-border {
+        background-color: $background-first;
+        height: 0.5cm;
         width: 100%;
     }
 }

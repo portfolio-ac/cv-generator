@@ -1,0 +1,17 @@
+{
+    "title": "Activities & Hobbies",
+    "list": [
+        {
+            "title": "Activity or Hobby",
+            "date": "2020-2021"
+        },
+        {
+            "title": "Activity or Hobby",
+            "date": "2021-2022"
+        },
+        {
+            "title": "Activity or Hobby",
+            "date": "2022-2023"
+        }
+    ]
+}

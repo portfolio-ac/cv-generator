@@ -1,0 +1,33 @@
+@import "../../styles-global.scss";
+
+.language-section {
+    background-color: $background-section;
+    color: $color-section;
+    // border-left: solid 0.05cm white;
+    // border-right: solid 0.05cm white;
+    padding-left: 0.01cm;
+    padding-right: 0.01cm;
+    height: 0.8cm;
+}
+
+.language-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.1rem;
+    padding: 0.2cm;
+}
+
+.language-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: normal;
+    padding: 0.2cm;
+}
+.language-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

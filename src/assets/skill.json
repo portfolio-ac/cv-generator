@@ -1,0 +1,13 @@
+{
+    "title": "Qualities & Skills",
+    "list": [
+        {
+            "title": "Qualities",
+            "description": "quality1, quality2, quality3, ..."
+        },
+        {
+            "title": "Skills",
+            "description": "Skill1, Skill2, Skill3, ..."
+        }
+    ]
+}

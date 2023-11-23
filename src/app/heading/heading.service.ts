@@ -7,6 +7,7 @@ export type Language = {
 export class Heading {
     fullname: string = "";
     occupation: string = "";
+    degree: string = "";
     address: string = "";
     nationality: string = "";
     birthdate: string = "";

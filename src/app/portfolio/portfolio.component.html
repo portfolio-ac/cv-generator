@@ -5,7 +5,7 @@
     <div class="row portfolio-section" *ngFor="let project of section.list">
         <div class="col-3">
             <div class="portfolio-left">
-                <div>{{ project.date }}</div>
+                <strong>{{ project.date }}</strong>
                 <div *ngIf="project.duration">{{ project.duration }}</div>
             </div>
         </div>

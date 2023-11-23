@@ -1,0 +1,20 @@
+<div class="section-set">
+    <div *ngIf="showTitle" class="section-set-title">{{ section.title }}</div>
+
+    <div class="row language-section" *ngFor="let language of section.list">
+        <div class="col-2">
+            <div class="language-left"></div>
+        </div>
+        <div class="col-8">
+            <div class="language-middle">
+                <div>
+                    <strong>{{ language.language }}</strong> :
+                    {{ language.description }}
+                </div>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="language-right"></div>
+        </div>
+    </div>
+</div>
